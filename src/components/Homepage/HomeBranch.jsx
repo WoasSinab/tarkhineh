@@ -4,14 +4,14 @@ function HomeBranch() {
 
 
   return (
-    <div className="mx-40 my-12 flex flex-col gap-32 justify-center items-center">
+    <div className="lg:mx-40 mx-8 my-12 flex flex-col lg:gap-32 gap-16 justify-center items-center">
       <h1 className="lg:text-3xl text-xl font-medium">ترخینه گردی</h1>
 
-      <div className="flex flex-row gap-16">
+      <div className="w-full flex lg:flex-row flex-col gap-16">
         <div className="flex flex-col gap-4 items-center border-2 border-gray-200 rounded-xl hover:border-[#417F56]">
           <img className="w-full h-52 " src="https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg" alt="" />
           <h1 className="mt-2 text-2xl">شعبه ونک</h1>
-          <p className=" p-6 text-right text-gray-500">میدان ونک، خیابان فردوسی، نبش کوچه نیلوفر، پلاک ۲۶</p>
+          <p className="p-6 text-right text-gray-500">میدان ونک، خیابان فردوسی، نبش کوچه نیلوفر، پلاک ۲۶</p>
         </div>
         <div className="flex flex-col gap-4 items-center border-2 border-gray-200 rounded-xl hover:border-[#417F56]">
           <img className="w-full h-52" src="https://images.pexels.com/photos/761854/pexels-photo-761854.jpeg" alt="" />
